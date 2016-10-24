@@ -2,12 +2,14 @@
 
 ## 動作環境
 
+- AWS EC2
 - Ruby 2.0
 - Elasticsearch 2.4.1
 
 ## Elasticsearchのインストール
 
 以下のサイトを参照。
+
 http://qiita.com/mix_dvd/items/3ed9888499c2839d8c43
 
 ## gemのインストール
