@@ -1,5 +1,7 @@
 # 企業支援施策ガイドブック2016年版検索サイトの構築
 
+## 動作環境
+
 - Ruby 2.0
 - Elasticsearch 2.4.1
 
@@ -25,8 +27,11 @@ ruby insert_data.rb
 sudo nano /etc/httpd/conf/httpd.conf
 
 「httpd.conf」内にある以下の表記を「None」から「All」に変更する
+
 AllowOverride None
+
 　↓
+
 AllowOverride All
 
 ## 実行
